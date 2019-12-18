@@ -1,0 +1,22 @@
+{
+    "name": "tarxzfv/ticket-price-modeling",
+    "type": "project",
+    "license": "UNLICENSED",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "phpspec/prophecy": "^1.10",
+        "phpstan/phpstan": "^0.12.3",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cinema\\": "src/Cinema"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
